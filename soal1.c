@@ -51,6 +51,7 @@ int main() {
     } 
     printf("MAX_VERTEX %d\n",bestX);
 
+    printf("ISOLATED");
     for(int i = 0; i < n; i++) {
         x[i] = 0;
         for(int j = 0; j < n; j++) {
@@ -59,13 +60,12 @@ int main() {
             }
         }
     if (x[i] == 0) {
-        printf("ISOLATED");
         printf(" %d",i);
         y++;
     }
     }
     if (y == 0) {
-        printf("ISOLATED NONE\n");
+        printf(" NONE\n");
     }
     return 0;
 }
