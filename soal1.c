@@ -59,10 +59,12 @@ int main() {
             }
         }
     if (x[i] == 0) {
-        printf("ISOLATED %d\n",i);
+        printf("ISOLATED");
+        printf(" %d",i);
         y++;
     }
     }
+    printf("\n");
     if (y == 0) {
         printf("ISOLATED NONE\n");
     }
