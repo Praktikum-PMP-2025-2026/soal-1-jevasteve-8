@@ -64,7 +64,6 @@ int main() {
         y++;
     }
     }
-    printf("\n");
     if (y == 0) {
         printf("ISOLATED NONE\n");
     }
